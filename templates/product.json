@@ -40,7 +40,7 @@
             "heading_1": "{{ product.metafields.custom.shipping_info.value }}",
             "icon_2": "return",
             "heading_2": "{{ product.metafields.custom.money_back_guarantee.value }}",
-            "icon_3": "truck",
+            "icon_3": "heart",
             "heading_3": "{{ product.metafields.custom.satisfied_customer_count.value }}"
           }
         },
