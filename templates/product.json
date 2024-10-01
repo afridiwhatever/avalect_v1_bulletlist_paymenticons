@@ -32,6 +32,18 @@
             "swatch_shape": "circle"
           }
         },
+        "icon_with_text_9Pnffy": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "truck",
+            "heading_1": "{{ product.metafields.custom.shipping_info.value }}",
+            "icon_2": "return",
+            "heading_2": "{{ product.metafields.custom.money_back_guarantee.value }}",
+            "icon_3": "truck",
+            "heading_3": "{{ product.metafields.custom.satisfied_customer_count.value }}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -62,6 +74,7 @@
         "rating",
         "price",
         "variant_picker",
+        "icon_with_text_9Pnffy",
         "quantity_selector",
         "buy_buttons",
         "description",
