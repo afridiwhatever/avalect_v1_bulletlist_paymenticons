@@ -404,6 +404,9 @@
           {% else %}
             {% assign productImageWidth = featureMedia.preview_image.width %}
         {% endcase %}
+        {% if featureMedia == null %}
+        {% assign productImageWidth = 1600 %}
+        {% endif %}
         <div 
           class='gp-feature-image-carousel gp-feature-image-only' 
           style="--o:0;--o-tablet:0;--o-mobile:0;--d:flex;--d-mobile:flex;--d-tablet:flex;--jc:center;--jc-tablet:center;--jc-mobile:center"
@@ -423,7 +426,7 @@
               style="--h:auto;--h-tablet:auto;--h-mobile:auto;width:{{productImageWidth}}px"
             >
               <div 
-                class="gp-w-full  {% if featureMedia.media_type == 'image' %} {{ 'gp-h-0' }} {% else %} {{ 'gp-h-full !gp-pb-0' }} {% endif %} gp-relative" 
+                class="gp-w-full  {% if featureMedia == null or featureMedia.media_type == 'image' %} {{ 'gp-h-0' }} {% else %} {{ 'gp-h-full !gp-pb-0' }} {% endif %} gp-relative" 
                 style="--pb: calc(({%if largestRatio == 0%} 100 / 100 {%else%} {{largestRatio}} {%endif%})*100%);--pb-tablet: calc(({%if largestRatio == 0%} 100 / 100 {%else%} {{largestRatio}} {%endif%})*100%);--pb-mobile: calc(({%if largestRatio == 0%} 100 / 100 {%else%} {{largestRatio}} {%endif%})*100%); {% if featureMedia.media_type == 'video' or featureMedia.media_type == 'external_video' %} {{ 'display: flex; align-items: center; justify-content: center' }} {% endif %}"
               >
                 
@@ -543,7 +546,44 @@
     </model-viewer>
   
       {% else %}
-        {{ featureMedia | media_tag }}
+        
+    
+  {%- liquid
+    assign isFetchPriorityHigh = false 
+    
+  -%}
+
+  {%- if isFetchPriorityHigh == true or isFetchPriorityHigh == 'true' -%}
+    <img
+      
+      
+      draggable="false"
+      isNotLazyload="true"
+      class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none"
+      src width="2237" height="1678" alt="No Image"
+      fetchpriority="high"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      srcset=""
+      sizes="(max-width: 768px) 50vw, 100vw"
+      style="--aspect:2237/1678;--aspect-tablet:2237/1678;--aspect-mobile:2237/1678;--objf:fill;--objf-tablet:cover;--objf-mobile:cover"
+    />
+  {%- else -%}
+    <img
+      
+      
+      draggable="false"
+      class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none gp_lazyload"
+      data-src data-srcset="https://cdn.shopify.com/s/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="2237" height="1678" alt="No Image"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:2237/1678;--aspect-tablet:2237/1678;--aspect-mobile:2237/1678;--objf:fill;--objf-tablet:cover;--objf-mobile:cover"
+    />
+  {%- endif -%}
+  
     {% endcase %}
     
               </div>
@@ -1487,7 +1527,7 @@
     "name": "Section - Sep 16 14:28:22",
     "tag": "section",
     "class": "gps-531770812399617162 gps gpsil",
-    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/02e520-2/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=531770812399617162)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"}],
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/02e520-2/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=531770812399617162)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"text","label":"Checksum","id":"checksum"}],
     "blocks": [{"type": "@app"}],
     "locales": {"nl":{"ggZ9LnLJTLp_text_html":"Maximale Veiligheid: RoadPro Features","gglXKKu-hnb_label_html":"BUY NOW","gglXKKu-hnb_outOfStockLabel_html":"Out of stocks","gglXKKu-hnb_unavailableLabel_html":"Unavailable","ggKtQwpNb1U_childItem_0_html":"<p>Loop-Recording</p>","ggosaVHMlQm_text_html":"<p><span style=\"background-color:rgb(255,255,255);color:rgb(3,3,26);font-size:16px;\">Geen gedoe met opslagruimte! Wanneer het geheugen van de 32GB SD-kaart vol is, neemt de Dashcam automatisch het initiatief. Oudere beelden worden automatisch overschreven, zodat u zonder onderbrekingen kunt blijven opnemen en geen waardevolle momenten op de weg mist.</span></p>","ggezgDm_OMp_childItem_0_html":"<p>G-Sensor</p>","ggK9KnJmTTd_text_html":"<p>Bij <strong>botsingen &amp; trillingen</strong> word de <strong>G-Sensor</strong> in de dashcam geactiveerd, de G-sensor begint automatisch met filmen van de voor &amp; achterzijde.</p>","ggTTbq3sMfA_childItem_0_html":"<p>ParkeerModus</p>","ggKS1EpwNLF_text_html":"<p><span style=\"background-color:rgb(255,255,255);color:rgb(3,3,26);font-size:16px;\">Met de ingebouwde <strong>G-sensor </strong>en <strong>parkeermodus</strong> detecteert en registreert de dashcam automatisch onverwachte bewegingen en trillingen. Zo kun je je voertuig met een gerust hart achterlaten, wetende dat alles wordt vastgelegd.</span></p>","gg_3RCHqUOU_childItem_0_html":"<p>NachtVisie</p>","gguFnAwZ-6T_text_html":"<p>De Roadpro beschikt ook over een <strong>Nachtvisie</strong>. Zodra de Dashcam detecteert dat het donker is schakelt hij automatisch over op Nachtvisie.</p>"}}
   }
