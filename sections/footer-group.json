@@ -1,0 +1,54 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "gp_global_section_533074999754359784_tPtHD3": {
+      "type": "gp-global-section-533074999754359784",
+      "settings": {
+        "section_preload": "off_lazy_script",
+        "checksum": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_YbMxUd": {
+          "type": "text",
+          "settings": {
+            "heading": "We staan voor je klaar!",
+            "subtext": "<p>Maandag t\/m vrijdag: 09.00 - 21.00<br\/>Zaterdag: 09.00 - 18.00<br\/>Zondag: 09.00 - 18.00<br\/><br\/>Heb je nog vragen? Neem dan contact op met een van onze medewerkers van de klantenservice op<br\/><br\/>Info@avalect.nl<br\/>Gevestigd in Amsterdam<\/p>"
+          }
+        },
+        "link_list_4W9VgX": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Info",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "text_YbMxUd",
+        "link_list_4W9VgX"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 44,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "gp_global_section_533074999754359784_tPtHD3",
+    "footer"
+  ]
+}
