@@ -59,6 +59,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "payment_icons_FPwnPE": {
+          "type": "payment_icons",
+          "settings": {
+            "payment_icon_text": "Veilig afrekenen"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -73,6 +79,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "payment_icons_FPwnPE",
         "description"
       ],
       "settings": {
