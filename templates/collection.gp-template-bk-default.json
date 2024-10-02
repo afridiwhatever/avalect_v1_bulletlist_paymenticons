@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -6,46 +15,6 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
-      }
-    },
-    "collection_list_P6JJyh": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_ALmq6i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "robotstofzuiers"
-          }
-        },
-        "featured_collection_bUdThf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "babyfoon"
-          }
-        },
-        "featured_collection_gh7Kdp": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dashcams"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_ALmq6i",
-        "featured_collection_bUdThf",
-        "featured_collection_gh7Kdp"
-      ],
-      "settings": {
-        "title": "Collecties",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "product-grid": {
@@ -71,7 +40,6 @@
   },
   "order": [
     "banner",
-    "collection_list_P6JJyh",
     "product-grid"
   ]
 }
