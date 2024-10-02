@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "order": [
     "main",
@@ -43,8 +52,10 @@
         "rating",
         "price",
         "variant_picker",
+        "icon_with_text_9Pnffy",
         "quantity_selector",
         "buy_buttons",
+        "payment_icons_XVNCkV",
         "description",
         "share"
       ],
@@ -60,6 +71,25 @@
           "settings": {
           },
           "type": "description"
+        },
+        "icon_with_text_9Pnffy": {
+          "settings": {
+            "heading_1": "{{ product.metafields.custom.shipping_info.value }}",
+            "heading_2": "{{ product.metafields.custom.money_back_guarantee.value }}",
+            "heading_3": "{{ product.metafields.custom.satisfied_customer_count.value }}",
+            "icon_1": "truck",
+            "icon_2": "return",
+            "icon_3": "heart",
+            "image_3": "shopify://shop_images/like-svgrepo-com.svg",
+            "layout": "vertical"
+          },
+          "type": "icon-with-text"
+        },
+        "payment_icons_XVNCkV": {
+          "settings": {
+            "payment_icon_text": "Bezahlen Sie sicher mit:"
+          },
+          "type": "payment_icons"
         },
         "price": {
           "settings": {
