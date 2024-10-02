@@ -1,0 +1,25 @@
+{%- style -%}
+  @media screen and (min-width: 990px) {
+    .payment-icons {
+      max-width: 78%;
+    }
+  }
+  .list.list-payment {
+    justify-content: center;
+  }
+{%- endstyle -%}
+
+
+<div {{ block.shopify_attributes }} class="payment-icons">
+  <p style="text-align: center;">{{ block.settings.payment_icon_text }}</p>
+  <ul class="list list-payment" role="list">
+    {%- for type in shop.enabled_payment_types -%}
+      {%- if type == 'apple_pay' or type == 'visa' or type == 'master' or type == 'paypal' or type == 'ideal' -%}
+        <li class="list-payment__item">
+          {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+
+</div>
