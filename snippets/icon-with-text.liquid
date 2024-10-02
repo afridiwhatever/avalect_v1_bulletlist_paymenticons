@@ -11,11 +11,18 @@
 {% endcomment %}
 
 {%- style -%}
-  .icon-with-text {
+  .icon-with-text-custom {
     margin-block: 2rem !important;
+    font-size: 14px;
   }
+
   .icon-with-text--vertical .icon-with-text__item {
-    margin-bottom: 9px;
+    margin-bottom: 7px;
+  }
+
+  .icon-with-text-custom .icon-with-text__item .svg-wrapper,
+  img {
+    transform: scale(0.9)
   }
 {%- endstyle -%}
 
@@ -45,7 +52,7 @@
     assign text_only_all_items = false
   endif
 -%}
-<ul class="icon-with-text icon-with-text--{{ block.settings.layout }} list-unstyled{% if text_only_all_items %} icon-with-text--text-only{% endif %}" {{ block.shopify_attributes }}>
+<ul class="icon-with-text icon-with-text-custom icon-with-text--{{ block.settings.layout }} list-unstyled{% if text_only_all_items %} icon-with-text--text-only{% endif %}" {{ block.shopify_attributes }}>
   {%- unless heading_1_empty -%}
     <li class="icon-with-text__item">
       {%- if block.settings.image_1 == null -%}

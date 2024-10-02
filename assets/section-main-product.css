@@ -1288,7 +1288,7 @@ a.product__text {
 .icon-with-text--vertical .svg-wrapper {
   min-height: var(--icon-size);
   min-width: var(--icon-size);
-  margin-right: 7px;
+  margin-right: 3px;
 }
 
 .icon-with-text img {
@@ -1298,7 +1298,7 @@ a.product__text {
 }
 
 .icon-with-text--vertical img {
-  margin-right: 7px;
+  margin-right: 3px;
 }
 
 .icon-with-text--horizontal .h4 {
