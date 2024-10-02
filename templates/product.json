@@ -41,6 +41,7 @@
             "icon_2": "return",
             "heading_2": "{{ product.metafields.custom.money_back_guarantee.value }}",
             "icon_3": "heart",
+            "image_3": "shopify:\/\/shop_images\/like-svgrepo-com.svg",
             "heading_3": "{{ product.metafields.custom.satisfied_customer_count.value }}"
           }
         },
@@ -54,6 +55,12 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "payment_icons_XVNCkV": {
+          "type": "payment_icons",
+          "settings": {
+            "payment_icon_text": "Bezahlen Sie sicher mit:"
           }
         },
         "description": {
@@ -77,6 +84,7 @@
         "icon_with_text_9Pnffy",
         "quantity_selector",
         "buy_buttons",
+        "payment_icons_XVNCkV",
         "description",
         "share"
       ],
