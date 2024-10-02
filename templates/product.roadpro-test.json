@@ -32,12 +32,12 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "heading_1": "Bis 23:00 Uhr bestellt = heute versandt",
+            "heading_1": "Voor 23:00 Besteld = morgen in huis!",
             "icon_2": "return",
-            "heading_2": "100% Geld-zuruck-Garantie",
+            "heading_2": "100% Geld terug garantie",
             "icon_3": "dryer",
             "image_3": "shopify://shop_images/like-svgrepo-com.svg",
-            "heading_3": "2200+ zufriendene Kunden"
+            "heading_3": "4700 + Tevreden klanten"
           }
         },
         "variant_picker": {
