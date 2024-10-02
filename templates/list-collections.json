@@ -11,28 +11,6 @@
   "sections": {
     "slideshow": {
       "type": "slideshow",
-      "blocks": {
-        "slide": {
-          "type": "slide",
-          "settings": {
-            "heading": "Collections",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "left"
-          }
-        }
-      },
-      "block_order": [
-        "slide"
-      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -46,6 +24,7 @@
     },
     "rich-text-0": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
