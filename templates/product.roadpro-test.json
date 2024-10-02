@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -18,6 +27,19 @@
           "settings": {
           }
         },
+        "icon_with_text_MJmm3e": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "truck",
+            "heading_1": "Bis 23:00 Uhr bestellt = heute versandt",
+            "icon_2": "return",
+            "heading_2": "100% Geld-zuruck-Garantie",
+            "icon_3": "dryer",
+            "image_3": "shopify://shop_images/like-svgrepo-com.svg",
+            "heading_3": "2200+ zufriendene Kunden"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -33,7 +55,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -47,6 +69,7 @@
         "title",
         "rating",
         "price",
+        "icon_with_text_MJmm3e",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -85,7 +108,8 @@
     "gp_global_section_532212450196456601_UgVMJt": {
       "type": "gp-global-section-532212450196456601",
       "settings": {
-        "section_preload": "off_lazy_script"
+        "section_preload": "off_lazy_script",
+        "checksum": ""
       }
     },
     "video_Y94wnq": {
@@ -94,8 +118,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/DSVm9RPvvA4",
-        "cover_image": "shopify:\/\/shop_images\/1.jpg",
+        "video_url": "https://youtu.be/DSVm9RPvvA4",
+        "cover_image": "shopify://shop_images/1.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -130,7 +154,7 @@
           "settings": {
             "heading": "Hoelang heb ik om te retourneren?",
             "icon": "return",
-            "row_content": "<p>Bij Avalect geloven wij in de kwaliteit van ons product! Om deze reden bieden wij ook een 30 dagen termijn voor al onze producten!<\/p><p><\/p><p>Dit houd in dat u 30 dagen de tijd heeft om het product uit te proberen en te bekijken of het u bevalt. <\/p>",
+            "row_content": "<p>Bij Avalect geloven wij in de kwaliteit van ons product! Om deze reden bieden wij ook een 30 dagen termijn voor al onze producten!</p><p></p><p>Dit houd in dat u 30 dagen de tijd heeft om het product uit te proberen en te bekijken of het u bevalt. </p>",
             "page": ""
           }
         },
@@ -139,7 +163,7 @@
           "settings": {
             "heading": "Klantenservice openingstijden",
             "icon": "chat_bubble",
-            "row_content": "<p>Onze klantenservice is 7 dagen per week geopend van 09:00 - 17:00<\/p><p><\/p><p>U kunt ervan uit gaan binnen 1-2 uur reactie te verwachten op uw email.<\/p>",
+            "row_content": "<p>Onze klantenservice is 7 dagen per week geopend van 09:00 - 17:00</p><p></p><p>U kunt ervan uit gaan binnen 1-2 uur reactie te verwachten op uw email.</p>",
             "page": ""
           }
         },
@@ -148,7 +172,7 @@
           "settings": {
             "heading": "Is de installatie van de Dashcam simpel?",
             "icon": "question_mark",
-            "row_content": "<p>Voor de een is dit natuurlijk wat makkelijker dan voor de ander.<\/p><p>Maar dit is geen enkel probleem!<\/p><p>Bij de Dashcam word een handige handleiding meegeleverd die precies uitlegd hoe je de dashcam moet installeren.<\/p><p>Na aankoop van de Dashcam ontvangt u een Link met een video waarbij wij precies laten zien hoe installatie van de Dashcam moet in uw auto.<\/p><p><\/p><p>Lukt het nou alsnog niet? Geen probleem wij staan altijd voor u klaar om u te helpen met het installeren van uw artikel!<\/p><p><\/p>",
+            "row_content": "<p>Voor de een is dit natuurlijk wat makkelijker dan voor de ander.</p><p>Maar dit is geen enkel probleem!</p><p>Bij de Dashcam word een handige handleiding meegeleverd die precies uitlegd hoe je de dashcam moet installeren.</p><p>Na aankoop van de Dashcam ontvangt u een Link met een video waarbij wij precies laten zien hoe installatie van de Dashcam moet in uw auto.</p><p></p><p>Lukt het nou alsnog niet? Geen probleem wij staan altijd voor u klaar om u te helpen met het installeren van uw artikel!</p><p></p>",
             "page": ""
           }
         },
@@ -157,7 +181,7 @@
           "settings": {
             "heading": "Mijn artikel is nooit geleverd?",
             "icon": "box",
-            "row_content": "<p>Als uw artikel na 2-3 dagen niet geleverd is beschouwen wij dit als verloren, wij zullen direct een nieuwe gratis naar u opsturen die hopelijk wel binnen 1 dag geleverd is!<\/p>",
+            "row_content": "<p>Als uw artikel na 2-3 dagen niet geleverd is beschouwen wij dit als verloren, wij zullen direct een nieuwe gratis naar u opsturen die hopelijk wel binnen 1 dag geleverd is!</p>",
             "page": ""
           }
         }
