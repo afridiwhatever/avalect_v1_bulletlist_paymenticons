@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -48,6 +57,7 @@
     },
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "",
         "sort": "alphabetical",
@@ -56,15 +66,44 @@
         "columns_mobile": "2"
       }
     },
-    "rich-text-1": {
-      "type": "rich-text",
+    "collection_list_UJUkNR": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_peqUGq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "babyfoon"
+          }
+        },
+        "featured_collection_WerGVA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dashcams"
+          }
+        },
+        "featured_collection_EtbF93": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "robotstofzuiers"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_peqUGq",
+        "featured_collection_WerGVA",
+        "featured_collection_EtbF93"
+      ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
+        "title": "Collecties",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 60
+        "padding_bottom": 36
       }
     }
   },
@@ -72,6 +111,6 @@
     "slideshow",
     "rich-text-0",
     "main",
-    "rich-text-1"
+    "collection_list_UJUkNR"
   ]
 }
