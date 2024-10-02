@@ -50,7 +50,7 @@
             "icon_2": "return",
             "heading_2": "{{ product.metafields.custom.money_back_guarantee.value }}",
             "icon_3": "heart",
-            "image_3": "shopify:\/\/shop_images\/like-svgrepo-com.svg",
+            "image_3": "shopify://shop_images/like-svgrepo-com.svg",
             "heading_3": "{{ product.metafields.custom.satisfied_customer_count.value }}"
           }
         },

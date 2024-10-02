@@ -36,51 +36,10 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
-    },
-    "collection_list_XyLMEb": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_GyPtCJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "babyfoon"
-          }
-        },
-        "featured_collection_WMr8ac": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dashcams"
-          }
-        },
-        "featured_collection_9Kcqnz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "robotstofzuiers"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_GyPtCJ",
-        "featured_collection_WMr8ac",
-        "featured_collection_9Kcqnz"
-      ],
-      "settings": {
-        "title": "Collecties",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "collection_list_XyLMEb"
+    "product-grid"
   ]
 }
